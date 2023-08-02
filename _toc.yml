@@ -1,0 +1,37 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Spectroscopy
+    chapters:
+    - file: Spectroscopy/Theory
+    - file: Spectroscopy/Spectrum/Spectrum
+      sections:
+      - file: Spectroscopy/Spectrum/IR/IR-spectro
+        sections:
+        - file: Spectroscopy/Spectrum/IR/sub_Absorption
+        - file: Spectroscopy/Spectrum/IR/sub_Interferometry
+      - file: Spectroscopy/Spectrum/UV/UV-spectro
+    - file: Spectroscopy/Experiments/Experiments
+      sections:
+      - file: Spectroscopy/Experiments/PAC/PAC
+  - caption: Scattering
+    chapters:
+    - file: Scattering/Theory
+    - file: Scattering/Spectrum/Spectrum
+      sections:
+      - file: Scattering/Spectrum/Neutron/neutron-scatt
+      - file: Scattering/Spectrum/Electron/electron-scatt
+    - file: Scattering/Experiments/Experiments
+      sections:
+      - file: Spectroscopy/Experiments/HGW/HGW
+  - caption: Mass Spectrometrie
+    chapters:
+    - file: Mass-Spec/Mass-spectro
+  - caption: Appendix
+    chapters:    
+    - file: to-include
+    - file: bibliography
+
